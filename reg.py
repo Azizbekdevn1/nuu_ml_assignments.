@@ -1,21 +1,7 @@
 import csv
 import copy
 
-fileName = "It_buri.csv"
-
-
-# O'rgatuvchi tanlanma
-
-# X_l=[
-#     [12,2,4,1],
-#     [24,3,-7,1],
-#     [5,19,22,2],
-#     [4,14,5,2]
-# ]
-
-# x_l in float 
-
-
+fileName = "data.csv"
 
 def Nomrirovka_Min_Max(l):
     if type(l[0] == list):
@@ -68,7 +54,7 @@ def W_sum(w, x):
     return s
 
 
-# x1=1 x2 x3 ... xn lar yig'indisi 
+# x1=1 x2 x3 ... xn lar yig'indisi
 def X_sum(x):
     s = 0
     for i in range(len(x)):
@@ -140,7 +126,3 @@ for iter in range(n_itenation):
         break
 
 print(w)
-print(len(obj_list))
-print(len(x[0]))
-print(len(x))
-print(len(obj_list[0]))

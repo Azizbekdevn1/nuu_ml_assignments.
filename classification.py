@@ -1,19 +1,8 @@
 import csv
 import copy
 
-fileName = "It_buri.csv"
+fileName = "data.csv"
 
-
-# O'rgatuvchi tanlanma
-
-# X_l=[
-#     [12,2,4,1],
-#     [24,3,-7,1],
-#     [5,19,22,2],
-#     [4,14,5,2]
-# ]
-
-# x_l in float
 def classFunc(z):
     if z > 0:
         return 1.0
@@ -145,12 +134,8 @@ for iter in range(n_itenation):
     if StopKrit(x, w, y, eps=10):
         break
 # Klassifikatsiyani amalga oshirish
-# predictions = LinearClassification(x, w)
-
+predictions = LinearClassification(x, w)
 print(w)
 print("Natija:", predictions)
 
-# print(len(obj_list))
-# print(len(x[0]))
-# print(len(x))
-# print(len(obj_list[0]))
+
